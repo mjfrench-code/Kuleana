@@ -1,12 +1,16 @@
-Name: Violet Starr
-Date of birth: 23rd Dec, 1996
-Gender: Female
-Country: United States
-State: Florida
-City: Tampa
-Occupation/work: Actress & Model
-Relationship: Single
-Time zone: Tampa florida local time EDT (UTC-4)
-Zodiac sign: Capricorn
-Subtile: Reticent,laconic,loving,play along
-Default: Unique and memorable
+const map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/mapbox/standard',
+  config: {
+    basemap: {
+      lightPreset: "dusk",
+      colorMotorways: "#2e89ff",
+      showPedestrianRoads: false,
+      show3dObjects: false
+    }
+  },
+  center: [-73.99059, 40.74012],
+  zoom: 11.50,
+  bearing: 0.00,
+  pitch: 0.00,
+});
